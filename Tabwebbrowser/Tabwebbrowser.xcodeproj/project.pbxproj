@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08CF3E6A12748C42005A7CB5 /* WebbrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08CF3E6812748C42005A7CB5 /* WebbrowserViewController.m */; };
+		08CF3E6B12748C42005A7CB5 /* WebbrowserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08CF3E6912748C42005A7CB5 /* WebbrowserViewController.xib */; };
+		08CF980A1274B86300135798 /* cat_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 08CF98091274B86300135798 /* cat_image.png */; };
+		08F9BFD81275C45D00BFEFF1 /* close_button.gif in Resources */ = {isa = PBXBuildFile; fileRef = 08F9BFD71275C45D00BFEFF1 /* close_button.gif */; };
+		1D3623260D0F684500981E51 /* TabwebbrowserAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* TabwebbrowserAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		DD85A1DD129E81F000C7BE03 /* DetectNetworkConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = DD85A1DC129E81F000C7BE03 /* DetectNetworkConnection.m */; };
+		DD85A1EC129E835800C7BE03 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD85A1EB129E835800C7BE03 /* CFNetwork.framework */; };
+		DD85A1F2129E839C00C7BE03 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD85A1F1129E839C00C7BE03 /* SystemConfiguration.framework */; };
+		DD8FDFEF129D53B2003EB49A /* backbutton.gif in Resources */ = {isa = PBXBuildFile; fileRef = DD8FDFEE129D53B2003EB49A /* backbutton.gif */; };
+		DD8FDFF4129D54CE003EB49A /* forwardimge.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8FDFF3129D54CE003EB49A /* forwardimge.png */; };
+		DD8FDFF7129D55DC003EB49A /* frbtn.gif in Resources */ = {isa = PBXBuildFile; fileRef = DD8FDFF6129D55DC003EB49A /* frbtn.gif */; };
+		DD8FDFFA129D563F003EB49A /* refresh.gif in Resources */ = {isa = PBXBuildFile; fileRef = DD8FDFF9129D563F003EB49A /* refresh.gif */; };
+		DDAD5147129D99990044CA55 /* leftscrol.png in Resources */ = {isa = PBXBuildFile; fileRef = DDAD5146129D99990044CA55 /* leftscrol.png */; };
+		DDAD5149129D999E0044CA55 /* Rightscrol.png in Resources */ = {isa = PBXBuildFile; fileRef = DDAD5148129D999E0044CA55 /* Rightscrol.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08CF3E6712748C42005A7CB5 /* WebbrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebbrowserViewController.h; sourceTree = "<group>"; };
+		08CF3E6812748C42005A7CB5 /* WebbrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebbrowserViewController.m; sourceTree = "<group>"; };
+		08CF3E6912748C42005A7CB5 /* WebbrowserViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebbrowserViewController.xib; sourceTree = "<group>"; };
+		08CF98091274B86300135798 /* cat_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat_image.png; sourceTree = "<group>"; };
+		08F9BFD71275C45D00BFEFF1 /* close_button.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = close_button.gif; sourceTree = "<group>"; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* TabwebbrowserAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabwebbrowserAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* TabwebbrowserAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabwebbrowserAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Tabwebbrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tabwebbrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Tabwebbrowser_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tabwebbrowser_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Tabwebbrowser-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Tabwebbrowser-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		DD85A1DB129E81F000C7BE03 /* DetectNetworkConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetectNetworkConnection.h; sourceTree = "<group>"; };
+		DD85A1DC129E81F000C7BE03 /* DetectNetworkConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetectNetworkConnection.m; sourceTree = "<group>"; };
+		DD85A1EB129E835800C7BE03 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		DD85A1F1129E839C00C7BE03 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DD8FDFEE129D53B2003EB49A /* backbutton.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = backbutton.gif; sourceTree = "<group>"; };
+		DD8FDFF3129D54CE003EB49A /* forwardimge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forwardimge.png; sourceTree = "<group>"; };
+		DD8FDFF6129D55DC003EB49A /* frbtn.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = frbtn.gif; sourceTree = "<group>"; };
+		DD8FDFF9129D563F003EB49A /* refresh.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = refresh.gif; sourceTree = "<group>"; };
+		DDAD5146129D99990044CA55 /* leftscrol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftscrol.png; sourceTree = "<group>"; };
+		DDAD5148129D999E0044CA55 /* Rightscrol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rightscrol.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				DD85A1EC129E835800C7BE03 /* CFNetwork.framework in Frameworks */,
+				DD85A1F2129E839C00C7BE03 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* TabwebbrowserAppDelegate.h */,
+				1D3623250D0F684500981E51 /* TabwebbrowserAppDelegate.m */,
+				08CF3E6C12748C5B005A7CB5 /* WebbrowserViewController */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		08CF3E6C12748C5B005A7CB5 /* WebbrowserViewController */ = {
+			isa = PBXGroup;
+			children = (
+				08CF3E6712748C42005A7CB5 /* WebbrowserViewController.h */,
+				08CF3E6812748C42005A7CB5 /* WebbrowserViewController.m */,
+				08CF3E6912748C42005A7CB5 /* WebbrowserViewController.xib */,
+				DD85A1DA129E81F000C7BE03 /* DetectConnection */,
+			);
+			name = WebbrowserViewController;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Tabwebbrowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				08F9BFD71275C45D00BFEFF1 /* close_button.gif */,
+				DD8FDFF9129D563F003EB49A /* refresh.gif */,
+				DDAD5146129D99990044CA55 /* leftscrol.png */,
+				DD8FDFF6129D55DC003EB49A /* frbtn.gif */,
+				DD8FDFF3129D54CE003EB49A /* forwardimge.png */,
+				DDAD5148129D999E0044CA55 /* Rightscrol.png */,
+				DD8FDFEE129D53B2003EB49A /* backbutton.gif */,
+				32CA4F630368D1EE00C91783 /* Tabwebbrowser_Prefix.pch */,
+				08CF98091274B86300135798 /* cat_image.png */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Tabwebbrowser-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				DD85A1EB129E835800C7BE03 /* CFNetwork.framework */,
+				DD85A1F1129E839C00C7BE03 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD85A1DA129E81F000C7BE03 /* DetectConnection */ = {
+			isa = PBXGroup;
+			children = (
+				DD85A1DB129E81F000C7BE03 /* DetectNetworkConnection.h */,
+				DD85A1DC129E81F000C7BE03 /* DetectNetworkConnection.m */,
+			);
+			name = DetectConnection;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Tabwebbrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Tabwebbrowser" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tabwebbrowser;
+			productName = Tabwebbrowser;
+			productReference = 1D6058910D05DD3D006BFB54 /* Tabwebbrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Tabwebbrowser" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Tabwebbrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				08CF3E6B12748C42005A7CB5 /* WebbrowserViewController.xib in Resources */,
+				08CF980A1274B86300135798 /* cat_image.png in Resources */,
+				08F9BFD81275C45D00BFEFF1 /* close_button.gif in Resources */,
+				DD8FDFEF129D53B2003EB49A /* backbutton.gif in Resources */,
+				DD8FDFF4129D54CE003EB49A /* forwardimge.png in Resources */,
+				DD8FDFF7129D55DC003EB49A /* frbtn.gif in Resources */,
+				DD8FDFFA129D563F003EB49A /* refresh.gif in Resources */,
+				DDAD5147129D99990044CA55 /* leftscrol.png in Resources */,
+				DDAD5149129D999E0044CA55 /* Rightscrol.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* TabwebbrowserAppDelegate.m in Sources */,
+				08CF3E6A12748C42005A7CB5 /* WebbrowserViewController.m in Sources */,
+				DD85A1DD129E81F000C7BE03 /* DetectNetworkConnection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Tabwebbrowser_Prefix.pch;
+				INFOPLIST_FILE = "Tabwebbrowser-Info.plist";
+				PRODUCT_NAME = Tabwebbrowser;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Tabwebbrowser_Prefix.pch;
+				INFOPLIST_FILE = "Tabwebbrowser-Info.plist";
+				PRODUCT_NAME = Tabwebbrowser;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Tabwebbrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Tabwebbrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

@@ -1,0 +1,1 @@
+{"Rqst":{"Context":"","UID":"12345","SubscriptionMode":"","GetAccounts":"","BillPayerServices":{"ActionToTake":"AddPayment","UserID":"12345","ConfigurationID":"3","BillPayerPaymentDetails":{"PaymentID":"","PayeeID":"42427393","FundingID":"12345","Amount":"12300","SentOn":"7\/20\/2010","FundingMethod":"0","DeliveryMethod":"2"}}}}

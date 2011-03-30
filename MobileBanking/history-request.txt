@@ -1,0 +1,1 @@
+{"Rqst":{"HistoryPageRqst":{"Suffix":"0","SLType":"S","FirstDate":"20100602","LastDate":"20100710","FilterType":"","FilterArg":"","MaxItems":"100","ContinueKey":"","GetPendingCardTransactions":"F"},"Context":"","UID":"12345"}}

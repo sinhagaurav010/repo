@@ -1,0 +1,1 @@
+{"Reply":{"BillPayerServices":{"BillPayerPaymentDetails":{"PaymentID":"804772661","PayeeID":"42427393","FundingID":"12345","Amount":"123.00","SentOn":"7\/20\/2010","DeliverBy":"7\/24\/2010","ConfirmationNumber":"2BRBK83M","Status":"0"}}}}

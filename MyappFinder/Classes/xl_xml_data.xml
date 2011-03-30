@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<meadinkent>
+<record>
+<store_name>Carlow - Kennedy Avenue</store_name>
+<address1>Kennedy Avenue</address1>
+<address2>Carlow</address2>
+<address3></address3>
+<address4></address4>
+<post_code></post_code>
+<county>Carlow</county>
+<town>Carlow</town>
+<telareacode>59 </telareacode>
+<tel>9,135,460 </tel>
+<faxareacode>59 </faxareacode>
+<fax>9,135,462 </fax>
+<freewifi>Yes</freewifi>
+<cashless>Yes</cashless>
+<mcdrive></mcdrive>
+<mccafe></mccafe>
+<wheelchairaccess></wheelchairaccess>
+<birthdayparties></birthdayparties>
+<playplace></playplace>
+<open>8:00:00 AM </open>
+<close>2:00:00 AM </close>
+<open>8:00:00 AM </open>
+<close>2:00:00 AM </close>
+<open>8:00:00 AM </open>
+<close>2:00:00 AM </close>
+<open>8:00:00 AM </open>
+<close>2:00:00 AM </close>
+<open>8:00:00 AM </open>
+<close>2:00:00 AM </close>
+<open>8:00:00 AM </open>
+<close>2:00:00 AM </close>
+<open>8:00:00 AM </open>
+<close>2:00:00 AM </close>
+<voucheravail>Yes</voucheravail>
+<latitude>52.835126 </latitude>
+<longitude>-6.930233</longitude>
+<drivethru></drivethru>
+<instore>Yes</instore>
+</record>
+<record>
+<store_name>Cavan McDrive</store_name>
+<address1>Pullamore Business Park</address1>
+<address2>Dublin Road</address2>
+<address3>Cavan</address3>
+<address4>Co. Cavan</address4>
+<post_code></post_code>
+<county>Cavan</county>
+<town>Cavan</town>
+<telareacode>49 </telareacode>
+<tel>4,373,468 </tel>
+<faxareacode>49 </faxareacode>
+<fax>4,373,469 </fax>
+<freewifi>Yes</freewifi>
+<cashless>Yes</cashless>
+<mcdrive>Yes</mcdrive>
+<mccafe></mccafe>
+<wheelchairaccess></wheelchairaccess>
+<birthdayparties></birthdayparties>
+<playplace>Yes</playplace>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<voucheravail>Yes</voucheravail>
+<latitude>53.984278 </latitude>
+<longitude>-7.330340</longitude>
+<drivethru>Yes</drivethru>
+<instore></instore>
+</record>
+<record>
+<store_name>Clare - Ennis</store_name>
+<address1>Gort Road</address1>
+<address2>Ennis</address2>
+<address3>Co. Clare</address3>
+<address4></address4>
+<post_code></post_code>
+<county>Clare</county>
+<town>Ennis</town>
+<telareacode>65 </telareacode>
+<tel>6,821,200 </tel>
+<faxareacode>65 </faxareacode>
+<fax>6,821,196 </fax>
+<freewifi>Yes</freewifi>
+<cashless>Yes</cashless>
+<mcdrive>Yes</mcdrive>
+<mccafe></mccafe>
+<wheelchairaccess>Yes</wheelchairaccess>
+<birthdayparties></birthdayparties>
+<playplace></playplace>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<voucheravail>Yes</voucheravail>
+<latitude>52.852538 </latitude>
+<longitude>-8.982923</longitude>
+<drivethru>Yes</drivethru>
+<instore></instore>
+</record>
+<record>
+<store_name>Clare - Shannon McDrive</store_name>
+<address1>Limerick Road</address1>
+<address2>Shannon</address2>
+<address3>Co. Clare</address3>
+<address4></address4>
+<post_code></post_code>
+<county>Clare</county>
+<town>Shannon</town>
+<telareacode>61 </telareacode>
+<tel>364,920 </tel>
+<faxareacode>61 </faxareacode>
+<fax>364,922 </fax>
+<freewifi>Yes</freewifi>
+<cashless>Yes</cashless>
+<mcdrive>Yes</mcdrive>
+<mccafe></mccafe>
+<wheelchairaccess>Yes</wheelchairaccess>
+<birthdayparties></birthdayparties>
+<playplace></playplace>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<voucheravail>Yes</voucheravail>
+<latitude>52.71247028950989 </latitude>
+<longitude>-8.87596607208252</longitude>
+<drivethru>Yes</drivethru>
+<instore></instore>
+</record>
+<record>
+<store_name>Cork - Blackpool McDrive</store_name>
+<address1>Commons Road</address1>
+<address2>Blackpool</address2>
+<address3>Co. Cork</address3>
+<address4></address4>
+<post_code></post_code>
+<county>Cork</county>
+<town>Blackpool</town>
+<telareacode>21 </telareacode>
+<tel>4,391,566 </tel>
+<faxareacode>21 </faxareacode>
+<fax>4,391,581 </fax>
+<freewifi>Yes</freewifi>
+<cashless>Yes</cashless>
+<mcdrive>Yes</mcdrive>
+<mccafe></mccafe>
+<wheelchairaccess></wheelchairaccess>
+<birthdayparties></birthdayparties>
+<playplace></playplace>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<voucheravail></voucheravail>
+<latitude>51.91984099835859 </latitude>
+<longitude>-8.482024669647217</longitude>
+<drivethru>Yes</drivethru>
+<instore></instore>
+</record>
+<record>
+<store_name>Cork - Blackpool Shopping Centre</store_name>
+<address1>Blackpool Shopping Centre</address1>
+<address2>Blackpool</address2>
+<address3>Co. Cork</address3>
+<address4></address4>
+<post_code></post_code>
+<county>Cork</county>
+<town>Blackpool</town>
+<telareacode>21 </telareacode>
+<tel>4,211,198 </tel>
+<faxareacode>21 </faxareacode>
+<fax>4,211,112 </fax>
+<freewifi></freewifi>
+<cashless>Yes</cashless>
+<mcdrive></mcdrive>
+<mccafe></mccafe>
+<wheelchairaccess></wheelchairaccess>
+<birthdayparties></birthdayparties>
+<playplace></playplace>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<voucheravail>Yes</voucheravail>
+<latitude>51.915102867047395 </latitude>
+<longitude> -8.471639156341553</longitude>
+<drivethru></drivethru>
+<instore>Yes</instore>
+</record>
+<record>
+<store_name>Cork - Douglas McDrive</store_name>
+<address1>Douglas Village</address1>
+<address2>Douglas</address2>
+<address3>Co. Cork</address3>
+<address4></address4>
+<post_code></post_code>
+<county>Cork</county>
+<town>Douglas</town>
+<telareacode>21 </telareacode>
+<tel>4,364,456 </tel>
+<faxareacode>21 </faxareacode>
+<fax>4,364,374 </fax>
+<freewifi>Yes</freewifi>
+<cashless>Yes</cashless>
+<mcdrive>Yes</mcdrive>
+<mccafe></mccafe>
+<wheelchairaccess>Yes</wheelchairaccess>
+<birthdayparties>Yes</birthdayparties>
+<playplace></playplace>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<voucheravail></voucheravail>
+<latitude>51.878424 </latitude>
+<longitude>-8.433566</longitude>
+<drivethru>Yes</drivethru>
+<instore></instore>
+</record>
+<record>
+<store_name>Cork - Mahon Point</store_name>
+<address1>Unit F1</address1>
+<address2>Mahon Point Shopping Centre</address2>
+<address3>Co. Cork</address3>
+<address4></address4>
+<post_code></post_code>
+<county>Cork</county>
+<town>Cork</town>
+<telareacode>21 </telareacode>
+<tel>4,515,041 </tel>
+<faxareacode>21 </faxareacode>
+<fax>4,515,043 </fax>
+<freewifi>Yes</freewifi>
+<cashless>Yes</cashless>
+<mcdrive></mcdrive>
+<mccafe></mccafe>
+<wheelchairaccess></wheelchairaccess>
+<birthdayparties></birthdayparties>
+<playplace></playplace>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<voucheravail></voucheravail>
+<latitude>51.8867695302474 </latitude>
+<longitude>-8.393983840942383</longitude>
+<drivethru></drivethru>
+<instore>Yes</instore>
+</record>
+<record>
+<store_name>Cork - Mallow</store_name>
+<address1>144 Bank Place</address1>
+<address2>Davis Street</address2>
+<address3>Mallow</address3>
+<address4>Co. Cork</address4>
+<post_code></post_code>
+<county>Cork</county>
+<town>Mallow</town>
+<telareacode>22 </telareacode>
+<tel>50,520 </tel>
+<faxareacode>22 </faxareacode>
+<fax>50,533 </fax>
+<freewifi>Yes</freewifi>
+<cashless>Yes</cashless>
+<mcdrive></mcdrive>
+<mccafe></mccafe>
+<wheelchairaccess></wheelchairaccess>
+<birthdayparties></birthdayparties>
+<playplace></playplace>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<voucheravail>Yes</voucheravail>
+<latitude>52.13685974852633 </latitude>
+<longitude>-8.646240234375</longitude>
+<drivethru></drivethru>
+<instore>Yes</instore>
+</record>
+<record>
+<store_name>Cork - Midleton</store_name>
+<address1>Unit 1 Riverside Mall</address1>
+<address2>Midleton</address2>
+<address3>Co. Cork</address3>
+<address4></address4>
+<post_code></post_code>
+<county>Cork</county>
+<town>Midleton</town>
+<telareacode>21 </telareacode>
+<tel>4,631,188 </tel>
+<faxareacode>21 </faxareacode>
+<fax>4,631,095 </fax>
+<freewifi>Yes</freewifi>
+<cashless>Yes</cashless>
+<mcdrive></mcdrive>
+<mccafe></mccafe>
+<wheelchairaccess></wheelchairaccess>
+<birthdayparties></birthdayparties>
+<playplace></playplace>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<voucheravail></voucheravail>
+<latitude>52.13685974852633 </latitude>
+<longitude>-8.646240234375</longitude>
+<drivethru></drivethru>
+<instore>Yes</instore>
+</record>
+<record>
+<store_name>Cork - Patrick Street</store_name>
+<address1>64 Patrick Street</address1>
+<address2>Cork</address2>
+<address3>Co. Cork</address3>
+<address4></address4>
+<post_code></post_code>
+<county>Cork</county>
+<town>Cork</town>
+<telareacode>21 </telareacode>
+<tel>4,278,233 </tel>
+<faxareacode>21 </faxareacode>
+<fax>4,278,543 </fax>
+<freewifi>Yes</freewifi>
+<cashless>Yes</cashless>
+<mcdrive></mcdrive>
+<mccafe></mccafe>
+<wheelchairaccess></wheelchairaccess>
+<birthdayparties></birthdayparties>
+<playplace></playplace>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<voucheravail>Yes</voucheravail>
+<latitude>51.913686624595975 </latitude>
+<longitude>-8.646240234375</longitude>
+<drivethru></drivethru>
+<instore>Yes</instore>
+</record>
+<record>
+<store_name>Cork - Winthrop Street</store_name>
+<address1>4-5 Winthrop Street</address1>
+<address2>Cork</address2>
+<address3>Co. Cork</address3>
+<address4></address4>
+<post_code></post_code>
+<county>Cork</county>
+<town>Cork</town>
+<telareacode>21 </telareacode>
+<tel>4,272,175 </tel>
+<faxareacode>21 </faxareacode>
+<fax>4,274,370 </fax>
+<freewifi>Yes</freewifi>
+<cashless>Yes</cashless>
+<mcdrive></mcdrive>
+<mccafe></mccafe>
+<wheelchairaccess></wheelchairaccess>
+<birthdayparties></birthdayparties>
+<playplace></playplace>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<voucheravail>Yes</voucheravail>
+<latitude>51.913686624595975 </latitude>
+<longitude>-8.175437450408936</longitude>
+<drivethru></drivethru>
+<instore>Yes</instore>
+</record>
+<record>
+<store_name>Donegal - Letterkenny McDrive</store_name>
+<address1>Pearse Road</address1>
+<address2>Letterkenny</address2>
+<address3>Co. Donegal</address3>
+<address4></address4>
+<post_code></post_code>
+<county>Donegal</county>
+<town>Letterkenny</town>
+<telareacode>74 </telareacode>
+<tel>9,120,622 </tel>
+<faxareacode>74 </faxareacode>
+<fax>9,120,624 </fax>
+<freewifi>Yes</freewifi>
+<cashless>Yes</cashless>
+<mcdrive>Yes</mcdrive>
+<mccafe></mccafe>
+<wheelchairaccess></wheelchairaccess>
+<birthdayparties></birthdayparties>
+<playplace></playplace>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<voucheravail>Yes</voucheravail>
+<latitude>51.89862139414117 </latitude>
+<longitude>-8.475372791290283</longitude>
+<drivethru>Yes</drivethru>
+<instore></instore>
+</record>
+<record>
+<store_name>Dublin - Artaine McDrive</store_name>
+<address1>Artaine Castle</address1>
+<address2>Kilmore Road</address2>
+<address3></address3>
+<address4></address4>
+<post_code>Dublin 5</post_code>
+<county>Dublin</county>
+<town>Artaine</town>
+<telareacode>74</telareacode>
+<tel>8,327,370 </tel>
+<faxareacode>01 </faxareacode>
+<fax>8,327,371 </fax>
+<freewifi>Yes</freewifi>
+<cashless>Yes</cashless>
+<mcdrive>Yes</mcdrive>
+<mccafe>Yes</mccafe>
+<wheelchairaccess></wheelchairaccess>
+<birthdayparties></birthdayparties>
+<playplace>Yes</playplace>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<voucheravail>Yes</voucheravail>
+<latitude>51.89855519129348 </latitude>
+<longitude>-8.470823764801025</longitude>
+<drivethru>Yes</drivethru>
+<instore></instore>
+</record>
+<record>
+<store_name>Dublin - Belgard Road</store_name>
+<address1>Belgard Road</address1>
+<address2>Tallaght</address2>
+<address3></address3>
+<address4></address4>
+<post_code>Dublin 24</post_code>
+<county>Dublin</county>
+<town>Tallaght</town>
+<telareacode>74 </telareacode>
+<tel>4,596,852 </tel>
+<faxareacode>01 </faxareacode>
+<fax>4,625,447 </fax>
+<freewifi>Yes</freewifi>
+<cashless>Yes</cashless>
+<mcdrive>Yes</mcdrive>
+<mccafe>Yes</mccafe>
+<wheelchairaccess>Yes</wheelchairaccess>
+<birthdayparties></birthdayparties>
+<playplace>Yes</playplace>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<voucheravail>Yes</voucheravail>
+<latitude>54.94575579063734 </latitude>
+<longitude>-7.736198902130127</longitude>
+<drivethru>Yes</drivethru>
+<instore></instore>
+</record>
+<record>
+<store_name>Dublin - Blackrock</store_name>
+<address1>Frascati Shopping Centre</address1>
+<address2>Blackrock</address2>
+<address3>Co. Dublin</address3>
+<address4></address4>
+<post_code></post_code>
+<county>Dublin</county>
+<town>Blackrock</town>
+<telareacode>74</telareacode>
+<tel>2,781,422 </tel>
+<faxareacode>12:00:00 PM </faxareacode>
+<fax>2,781,434 </fax>
+<freewifi>Yes</freewifi>
+<cashless>Yes</cashless>
+<mcdrive></mcdrive>
+<mccafe></mccafe>
+<wheelchairaccess></wheelchairaccess>
+<birthdayparties></birthdayparties>
+<playplace></playplace>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<voucheravail></voucheravail>
+<latitude>53.38290761119407</latitude>
+<longitude>-6.213012635707855</longitude>
+<drivethru></drivethru>
+<instore>Yes</instore>
+</record>
+<record>
+<store_name>Dublin - Blanchardstown</store_name>
+<address1>306 Blanchardstown Shopping Centre</address1>
+<address2></address2>
+<address3></address3>
+<address4></address4>
+<post_code>Dublin 15</post_code>
+<county>Dublin</county>
+<town>Blanchardstown</town>
+<telareacode>74</telareacode>
+<tel>8,220,700 </tel>
+<faxareacode>01</faxareacode>
+<fax>8,221,361 </fax>
+<freewifi>Yes</freewifi>
+<cashless>Yes</cashless>
+<mcdrive></mcdrive>
+<mccafe></mccafe>
+<wheelchairaccess></wheelchairaccess>
+<birthdayparties></birthdayparties>
+<playplace></playplace>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<voucheravail>Yes</voucheravail>
+<latitude>53.287653859391675 </latitude>
+<longitude>-6.367671489715576</longitude>
+<drivethru></drivethru>
+<instore>Yes</instore>
+</record>
+<record>
+<store_name>Dublin - Blanchardstown McDrive</store_name>
+<address1>Blanchardstown</address1>
+<address2></address2>
+<address3></address3>
+<address4></address4>
+<post_code>Dublin 15</post_code>
+<county>Dublin</county>
+<town>Blanchardstown</town>
+<telareacode>74 </telareacode>
+<tel>8,223,227 </tel>
+<faxareacode>01 </faxareacode>
+<fax>8,223,229 </fax>
+<freewifi></freewifi>
+<cashless>Yes</cashless>
+<mcdrive>Yes</mcdrive>
+<mccafe></mccafe>
+<wheelchairaccess></wheelchairaccess>
+<birthdayparties></birthdayparties>
+<playplace></playplace>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<voucheravail>Yes</voucheravail>
+<latitude>53.301107632191496 </latitude>
+<longitude>-6.18105411529541</longitude>
+<drivethru>Yes</drivethru>
+<instore></instore>
+</record>
+<record>
+<store_name>Dublin - Clondalkin McDrive</store_name>
+<address1>The Mill Shopping Centre</address1>
+<address2>Clondalkin</address2>
+<address3></address3>
+<address4></address4>
+<post_code>Dublin 22</post_code>
+<county>Dublin</county>
+<town>Clondalkin</town>
+<telareacode>74</telareacode>
+<tel>4,577,875 </tel>
+<faxareacode>01</faxareacode>
+<fax>4,577,889 </fax>
+<freewifi></freewifi>
+<cashless>Yes</cashless>
+<mcdrive>Yes</mcdrive>
+<mccafe></mccafe>
+<wheelchairaccess></wheelchairaccess>
+<birthdayparties></birthdayparties>
+<playplace></playplace>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<voucheravail>Yes</voucheravail>
+<latitude>53.3920305328158 </latitude>
+<longitude>-6.391403675079346</longitude>
+<drivethru>Yes</drivethru>
+<instore></instore>
+</record>
+<record>
+<store_name>Dublin - Crumlin</store_name>
+<address1>Unit 17, Ashleaf Shopping Centre</address1>
+<address2>Cromwellsfort Road</address2>
+<address3></address3>
+<address4></address4>
+<post_code>Dublin 12</post_code>
+<county>Dublin</county>
+<town>Crumlin</town>
+<telareacode>74</telareacode>
+<tel>4,551,152 </tel>
+<faxareacode>01</faxareacode>
+<fax>4,551,157 </fax>
+<freewifi>Yes</freewifi>
+<cashless></cashless>
+<mcdrive></mcdrive>
+<mccafe></mccafe>
+<wheelchairaccess></wheelchairaccess>
+<birthdayparties>Yes</birthdayparties>
+<playplace></playplace>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<voucheravail></voucheravail>
+<latitude>53.3920305328158 </latitude>
+<longitude>-6.391403675079390</longitude>
+<drivethru></drivethru>
+<instore>Yes</instore>
+</record>
+<record>
+<store_name>Dublin - Donaghmede</store_name>
+<address1>Donaghmede Shopping Centre</address1>
+<address2>Donaghmede</address2>
+<address3></address3>
+<address4></address4>
+<post_code>Dublin 13</post_code>
+<county>Dublin</county>
+<town>Donaghmede</town>
+<telareacode>74</telareacode>
+<tel>8,485,189 </tel>
+<faxareacode>12:00:00 PM </faxareacode>
+<fax>8,485,249 </fax>
+<freewifi>Yes</freewifi>
+<cashless>Yes</cashless>
+<mcdrive>Yes</mcdrive>
+<mccafe></mccafe>
+<wheelchairaccess></wheelchairaccess>
+<birthdayparties></birthdayparties>
+<playplace></playplace>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<voucheravail></voucheravail>
+<latitude>53.39291344723467 </latitude>
+<longitude>-6.395459175109863</longitude>
+<drivethru>Yes</drivethru>
+<instore></instore>
+</record>
+<record>
+<store_name>Dublin - Dun Laoghaire</store_name>
+<address1>30 Upper George's Street</address1>
+<address2>Co. Dublin</address2>
+<address3></address3>
+<address4></address4>
+<post_code></post_code>
+<county>Dublin</county>
+<town>Dun Laoghaire</town>
+<telareacode>74 </telareacode>
+<tel>2,804,087 </tel>
+<faxareacode>01 </faxareacode>
+<fax>2,804,149 </fax>
+<freewifi>Yes</freewifi>
+<cashless>Yes</cashless>
+<mcdrive></mcdrive>
+<mccafe></mccafe>
+<wheelchairaccess></wheelchairaccess>
+<birthdayparties></birthdayparties>
+<playplace></playplace>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<voucheravail>Yes</voucheravail>
+<latitude>53.323542 </latitude>
+<longitude>-6.396516</longitude>
+<drivethru></drivethru>
+<instore>Yes</instore>
+</record>
+<record>
+<store_name>Dublin - Dundrum</store_name>
+<address1>Dundrum Town Centre</address1>
+<address2></address2>
+<address3></address3>
+<address4></address4>
+<post_code>Dublin 14</post_code>
+<county>Dublin</county>
+<town>Dundrum</town>
+<telareacode>74</telareacode>
+<tel>2,981,178 </tel>
+<faxareacode>01 </faxareacode>
+<fax>2,981,178 </fax>
+<freewifi>Yes</freewifi>
+<cashless>Yes</cashless>
+<mcdrive></mcdrive>
+<mccafe></mccafe>
+<wheelchairaccess>Yes</wheelchairaccess>
+<birthdayparties></birthdayparties>
+<playplace></playplace>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<open>7:00:00 AM </open>
+<close>12:00:00 PM </close>
+<voucheravail>Yes</voucheravail>
+<latitude>53.316423933677314 </latitude>
+<longitude>-6.318246424198151</longitude>
+<drivethru></drivethru>
+<instore>Yes</instore>
+</record>
+</meadinkent>

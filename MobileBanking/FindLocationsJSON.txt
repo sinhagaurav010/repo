@@ -1,0 +1,94 @@
+Sample JSON Request for getting list of ATM locations near a specified address:
+{
+	"Rqst": {
+		"UID": "12345",
+		"LocatorSearchRequest": {
+			"LocatorSearchAddress": {
+				"Street": "",
+				"City": "Las Vegas",
+				"State": "NV",
+				"ZipCode": "89101"
+			}
+		}
+	}
+}
+
+Sample JSON Request for getting list of ATM locations near a specified global coordinate:
+{
+	"Rqst": {
+		"UID": "12345",
+		"LocatorSearchRequest": {
+			"Latitude": 36.17191,
+			"Longitude": -115.14,
+		}
+	}
+}
+
+Sample JSON Reply for list of locations:
+{
+	"Reply": {
+		"LocatorSearchFindLocationsReply": {
+			"StartLatitude": 36.17191,
+			"StartLongitude": -115.14,
+			"Locations": {
+				{
+					"LocationId": 1,
+					"LocatorSearchATMLocation": {
+						"LocationName": "Allpoint",
+						"Latitude": 36.16837,
+						"Longitude": -115.1417,
+						"Distance": 0.26,
+						"DistanceUnit": "miles",
+						"SurchargeFree": "Surcharge Free",
+						"AcceptDeposit": ""
+					},
+					"LocatorSearchAddress": {
+						"Street": "3743 Las Vegas Blvd",
+						"City": "Las Vegas",
+						"State": "NV",
+						"ZipCode": "89101",
+						"Country": "USA"
+					}
+				},
+				{
+					"LocationId": 2,
+					"LocatorSearchATMLocation": {
+						"LocationName": "7-Eleven",
+						"Latitude": 36.17489,
+						"Longitude": -115.1371,
+						"Distance": 0.26,
+						"DistanceUnit": "miles",
+						"SurchargeFree": "Surcharge Free",
+						"AcceptDeposit": ""
+					},
+					"LocatorSearchAddress": {
+						"Street": "600 Las Vegas Blvd N.",
+						"City": "Las Vegas",
+						"State": "NV",
+						"ZipCode": "89101",
+						"Country": "USA"
+					}
+				},
+				{
+					"LocationId": 3,
+					"LocatorSearchATMLocation": {
+						"LocationName": "7-Eleven",
+						"Latitude": 36.17395,
+						"Longitude": -115.117,
+						"Distance": 1.29,
+						"DistanceUnit": "miles",
+						"SurchargeFree": "Surcharge Free",
+						"AcceptDeposit": "Deposit Taking"
+					},
+					"LocatorSearchAddress": {
+						"Street": "2431 E. Bonanza Rd.",
+						"City": "Las Vegas",
+						"State": "NV",
+						"ZipCode": "89101",
+						"Country": "USA"
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,736 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* ZillowAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* ZillowAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		DD0DE890133296940001EF61 /* setprice.txt in Resources */ = {isa = PBXBuildFile; fileRef = DD0DE88F133296940001EF61 /* setprice.txt */; };
+		DD0DE8BF1332A6030001EF61 /* IAmReadyToSellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0DE8BD1332A6030001EF61 /* IAmReadyToSellViewController.m */; };
+		DD0DE8C01332A6030001EF61 /* IAmReadyToSellViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD0DE8BE1332A6030001EF61 /* IAmReadyToSellViewController.xib */; };
+		DD214E64133A7C95008722AC /* GetDirectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD214E62133A7C95008722AC /* GetDirectionViewController.m */; };
+		DD214E65133A7C95008722AC /* GetDirectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD214E63133A7C95008722AC /* GetDirectionViewController.xib */; };
+		DD3813BF133BCB1D00E3ACD2 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DD3813BE133BCB1D00E3ACD2 /* icon.png */; };
+		DD83EACA132EA9C600D0AA56 /* DetectNetworkConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = DD83EAC9132EA9C600D0AA56 /* DetectNetworkConnection.m */; };
+		DD83EAD7132EAA5B00D0AA56 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD83EAD6132EAA5B00D0AA56 /* SystemConfiguration.framework */; };
+		DD856BC913313CAF0018B1A5 /* WhatICanAffrdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD856BC713313CAF0018B1A5 /* WhatICanAffrdViewController.m */; };
+		DD856BCA13313CAF0018B1A5 /* WhatICanAffrdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD856BC813313CAF0018B1A5 /* WhatICanAffrdViewController.xib */; };
+		DD856C281331521E0018B1A5 /* SellHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD856C261331521E0018B1A5 /* SellHomeViewController.m */; };
+		DD856C291331521E0018B1A5 /* SellHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD856C271331521E0018B1A5 /* SellHomeViewController.xib */; };
+		DD856C3B133157750018B1A5 /* Marketting.txt in Resources */ = {isa = PBXBuildFile; fileRef = DD856C3A133157750018B1A5 /* Marketting.txt */; };
+		DD8773FB1330BFDE002D68A9 /* MortaggeCalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8773F91330BFDE002D68A9 /* MortaggeCalculatorViewController.m */; };
+		DD8773FC1330BFDE002D68A9 /* MortaggeCalculatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD8773FA1330BFDE002D68A9 /* MortaggeCalculatorViewController.xib */; };
+		DD8774A01330DD6C002D68A9 /* WebViewContrller.m in Sources */ = {isa = PBXBuildFile; fileRef = DD87749E1330DD6C002D68A9 /* WebViewContrller.m */; };
+		DD8774A11330DD6C002D68A9 /* WebViewContrller.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD87749F1330DD6C002D68A9 /* WebViewContrller.xib */; };
+		DD87752F1330F12C002D68A9 /* BuyHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD87752D1330F12C002D68A9 /* BuyHomeViewController.m */; };
+		DD8775301330F12C002D68A9 /* BuyHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD87752E1330F12C002D68A9 /* BuyHomeViewController.xib */; };
+		DD8775591330F86B002D68A9 /* FristTimBuyer.txt in Resources */ = {isa = PBXBuildFile; fileRef = DD8775581330F86B002D68A9 /* FristTimBuyer.txt */; };
+		DD943711133605A70064F3B2 /* IAmReadyToBuyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD94370F133605A70064F3B2 /* IAmReadyToBuyViewController.m */; };
+		DD943712133605A70064F3B2 /* IAmReadyToBuyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD943710133605A70064F3B2 /* IAmReadyToBuyViewController.xib */; };
+		DD946CDE13292052008A91A1 /* ZillowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD946CDC13292052008A91A1 /* ZillowViewController.m */; };
+		DD946CDF13292052008A91A1 /* ZillowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD946CDD13292052008A91A1 /* ZillowViewController.xib */; };
+		DD946D1613292FD8008A91A1 /* Modal.m in Sources */ = {isa = PBXBuildFile; fileRef = DD946D1513292FD8008A91A1 /* Modal.m */; };
+		DD946D441329356D008A91A1 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD946D421329356D008A91A1 /* SearchViewController.m */; };
+		DD946D451329356D008A91A1 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD946D431329356D008A91A1 /* SearchViewController.xib */; };
+		DD946D6613293A6C008A91A1 /* XmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = DD946D6513293A6C008A91A1 /* XmlParser.m */; };
+		DD946E7A13296425008A91A1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD946E7913296425008A91A1 /* MapKit.framework */; };
+		DD946E8013296473008A91A1 /* MyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = DD946E7E13296473008A91A1 /* MyAnnotation.m */; };
+		DD946E9913296668008A91A1 /* PlaceDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD946E9713296668008A91A1 /* PlaceDetailViewController.m */; };
+		DD946E9A13296668008A91A1 /* PlaceDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD946E9813296668008A91A1 /* PlaceDetailViewController.xib */; };
+		DD946E9D132966ED008A91A1 /* ForColor.png in Resources */ = {isa = PBXBuildFile; fileRef = DD946E9C132966ED008A91A1 /* ForColor.png */; };
+		DD946EAE1329689E008A91A1 /* iCodeBlogAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD946EAD1329689E008A91A1 /* iCodeBlogAnnotationView.m */; };
+		DD9FB9421333696500D738F0 /* SplashScreenViewControler.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9FB9401333696500D738F0 /* SplashScreenViewControler.m */; };
+		DD9FB9431333696500D738F0 /* SplashScreenViewControler.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD9FB9411333696500D738F0 /* SplashScreenViewControler.xib */; };
+		DD9FB94713336B0300D738F0 /* ImageJeff.png in Resources */ = {isa = PBXBuildFile; fileRef = DD9FB94613336B0300D738F0 /* ImageJeff.png */; };
+		DD9FBA0113337B9A00D738F0 /* AppointmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9FB9FF13337B9A00D738F0 /* AppointmentViewController.m */; };
+		DD9FBA0213337B9A00D738F0 /* AppointmentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD9FBA0013337B9A00D738F0 /* AppointmentViewController.xib */; };
+		DDA37E3C1331DD6C006DFEC6 /* JeffBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = DDA37E3B1331DD6C006DFEC6 /* JeffBlack.png */; };
+		DDA383B0133241F7006DFEC6 /* TipsTo.txt in Resources */ = {isa = PBXBuildFile; fileRef = DDA383AF133241F7006DFEC6 /* TipsTo.txt */; };
+		DDB4E180132F7C6400C68530 /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = DDB4E17E132F7C6400C68530 /* right.png */; };
+		DDB4E181132F7C6400C68530 /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = DDB4E17F132F7C6400C68530 /* left.png */; };
+		DDBA35741331336800388CE1 /* BuyerTip.txt in Resources */ = {isa = PBXBuildFile; fileRef = DDBA35731331336800388CE1 /* BuyerTip.txt */; };
+		DDD1E6E4132D23BC00D12005 /* LoadHtmlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD1E6E2132D23BC00D12005 /* LoadHtmlViewController.m */; };
+		DDD1E6E5132D23BC00D12005 /* LoadHtmlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDD1E6E3132D23BC00D12005 /* LoadHtmlViewController.xib */; };
+		DDD1E6EF132D25AE00D12005 /* AboutMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = DDD1E6EE132D25AE00D12005 /* AboutMe.txt */; };
+		DDD1E73D132D366900D12005 /* HomeWorthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD1E73B132D366900D12005 /* HomeWorthViewController.m */; };
+		DDD1E73E132D366900D12005 /* HomeWorthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDD1E73C132D366900D12005 /* HomeWorthViewController.xib */; };
+		DDD1E77A132D3B2F00D12005 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDD1E779132D3B2F00D12005 /* MessageUI.framework */; };
+		DDD1E784132D3B7900D12005 /* ModalHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD1E783132D3B7900D12005 /* ModalHUD.m */; };
+		DDD1E7B9132D3EF900D12005 /* ContactMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD1E7B7132D3EF900D12005 /* ContactMeViewController.m */; };
+		DDD1E7BA132D3EF900D12005 /* ContactMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDD1E7B8132D3EF900D12005 /* ContactMeViewController.xib */; };
+		DDD1E857132D5B8A00D12005 /* PropertyImaeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD1E855132D5B8A00D12005 /* PropertyImaeViewController.m */; };
+		DDD1E858132D5B8A00D12005 /* PropertyImaeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDD1E856132D5B8A00D12005 /* PropertyImaeViewController.xib */; };
+		DDDDC440132BD807001D69D7 /* UserLocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDDC43F132BD807001D69D7 /* UserLocationController.m */; };
+		DDDDC484132BEC46001D69D7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDDDC483132BEC46001D69D7 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* ZillowAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZillowAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* ZillowAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZillowAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Zillow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zillow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Zillow_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zillow_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Zillow-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Zillow-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		DD0DE88F133296940001EF61 /* setprice.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = setprice.txt; sourceTree = "<group>"; };
+		DD0DE8BC1332A6030001EF61 /* IAmReadyToSellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAmReadyToSellViewController.h; sourceTree = "<group>"; };
+		DD0DE8BD1332A6030001EF61 /* IAmReadyToSellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAmReadyToSellViewController.m; sourceTree = "<group>"; };
+		DD0DE8BE1332A6030001EF61 /* IAmReadyToSellViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IAmReadyToSellViewController.xib; sourceTree = "<group>"; };
+		DD214E61133A7C95008722AC /* GetDirectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetDirectionViewController.h; sourceTree = "<group>"; };
+		DD214E62133A7C95008722AC /* GetDirectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetDirectionViewController.m; sourceTree = "<group>"; };
+		DD214E63133A7C95008722AC /* GetDirectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GetDirectionViewController.xib; sourceTree = "<group>"; };
+		DD3813BE133BCB1D00E3ACD2 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		DD83EAC8132EA9C600D0AA56 /* DetectNetworkConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetectNetworkConnection.h; sourceTree = "<group>"; };
+		DD83EAC9132EA9C600D0AA56 /* DetectNetworkConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetectNetworkConnection.m; sourceTree = "<group>"; };
+		DD83EAD6132EAA5B00D0AA56 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DD856BC613313CAF0018B1A5 /* WhatICanAffrdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhatICanAffrdViewController.h; sourceTree = "<group>"; };
+		DD856BC713313CAF0018B1A5 /* WhatICanAffrdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhatICanAffrdViewController.m; sourceTree = "<group>"; };
+		DD856BC813313CAF0018B1A5 /* WhatICanAffrdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WhatICanAffrdViewController.xib; sourceTree = "<group>"; };
+		DD856C251331521E0018B1A5 /* SellHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SellHomeViewController.h; sourceTree = "<group>"; };
+		DD856C261331521E0018B1A5 /* SellHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SellHomeViewController.m; sourceTree = "<group>"; };
+		DD856C271331521E0018B1A5 /* SellHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SellHomeViewController.xib; sourceTree = "<group>"; };
+		DD856C3A133157750018B1A5 /* Marketting.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Marketting.txt; sourceTree = "<group>"; };
+		DD8773F81330BFDE002D68A9 /* MortaggeCalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MortaggeCalculatorViewController.h; sourceTree = "<group>"; };
+		DD8773F91330BFDE002D68A9 /* MortaggeCalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MortaggeCalculatorViewController.m; sourceTree = "<group>"; };
+		DD8773FA1330BFDE002D68A9 /* MortaggeCalculatorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MortaggeCalculatorViewController.xib; sourceTree = "<group>"; };
+		DD87749D1330DD6C002D68A9 /* WebViewContrller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewContrller.h; sourceTree = "<group>"; };
+		DD87749E1330DD6C002D68A9 /* WebViewContrller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewContrller.m; sourceTree = "<group>"; };
+		DD87749F1330DD6C002D68A9 /* WebViewContrller.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebViewContrller.xib; sourceTree = "<group>"; };
+		DD87752C1330F12C002D68A9 /* BuyHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyHomeViewController.h; sourceTree = "<group>"; };
+		DD87752D1330F12C002D68A9 /* BuyHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyHomeViewController.m; sourceTree = "<group>"; };
+		DD87752E1330F12C002D68A9 /* BuyHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BuyHomeViewController.xib; sourceTree = "<group>"; };
+		DD8775581330F86B002D68A9 /* FristTimBuyer.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FristTimBuyer.txt; sourceTree = "<group>"; };
+		DD94370E133605A70064F3B2 /* IAmReadyToBuyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAmReadyToBuyViewController.h; sourceTree = "<group>"; };
+		DD94370F133605A70064F3B2 /* IAmReadyToBuyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAmReadyToBuyViewController.m; sourceTree = "<group>"; };
+		DD943710133605A70064F3B2 /* IAmReadyToBuyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IAmReadyToBuyViewController.xib; sourceTree = "<group>"; };
+		DD946CDB13292052008A91A1 /* ZillowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZillowViewController.h; sourceTree = "<group>"; };
+		DD946CDC13292052008A91A1 /* ZillowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZillowViewController.m; sourceTree = "<group>"; };
+		DD946CDD13292052008A91A1 /* ZillowViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZillowViewController.xib; sourceTree = "<group>"; };
+		DD946D1413292FD8008A91A1 /* Modal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Modal.h; sourceTree = "<group>"; };
+		DD946D1513292FD8008A91A1 /* Modal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Modal.m; sourceTree = "<group>"; };
+		DD946D411329356D008A91A1 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		DD946D421329356D008A91A1 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		DD946D431329356D008A91A1 /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		DD946D6413293A6C008A91A1 /* XmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmlParser.h; sourceTree = "<group>"; };
+		DD946D6513293A6C008A91A1 /* XmlParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XmlParser.m; sourceTree = "<group>"; };
+		DD946E7913296425008A91A1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		DD946E7D13296473008A91A1 /* MyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAnnotation.h; sourceTree = "<group>"; };
+		DD946E7E13296473008A91A1 /* MyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAnnotation.m; sourceTree = "<group>"; };
+		DD946E9613296668008A91A1 /* PlaceDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceDetailViewController.h; sourceTree = "<group>"; };
+		DD946E9713296668008A91A1 /* PlaceDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceDetailViewController.m; sourceTree = "<group>"; };
+		DD946E9813296668008A91A1 /* PlaceDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlaceDetailViewController.xib; sourceTree = "<group>"; };
+		DD946E9C132966ED008A91A1 /* ForColor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ForColor.png; sourceTree = "<group>"; };
+		DD946EAC1329689E008A91A1 /* iCodeBlogAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCodeBlogAnnotationView.h; sourceTree = "<group>"; };
+		DD946EAD1329689E008A91A1 /* iCodeBlogAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCodeBlogAnnotationView.m; sourceTree = "<group>"; };
+		DD9FB93F1333696500D738F0 /* SplashScreenViewControler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashScreenViewControler.h; sourceTree = "<group>"; };
+		DD9FB9401333696500D738F0 /* SplashScreenViewControler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashScreenViewControler.m; sourceTree = "<group>"; };
+		DD9FB9411333696500D738F0 /* SplashScreenViewControler.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashScreenViewControler.xib; sourceTree = "<group>"; };
+		DD9FB94613336B0300D738F0 /* ImageJeff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ImageJeff.png; sourceTree = "<group>"; };
+		DD9FB9FE13337B9A00D738F0 /* AppointmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppointmentViewController.h; sourceTree = "<group>"; };
+		DD9FB9FF13337B9A00D738F0 /* AppointmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppointmentViewController.m; sourceTree = "<group>"; };
+		DD9FBA0013337B9A00D738F0 /* AppointmentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AppointmentViewController.xib; sourceTree = "<group>"; };
+		DDA37E3B1331DD6C006DFEC6 /* JeffBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JeffBlack.png; sourceTree = "<group>"; };
+		DDA383AF133241F7006DFEC6 /* TipsTo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TipsTo.txt; sourceTree = "<group>"; };
+		DDB4E17E132F7C6400C68530 /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
+		DDB4E17F132F7C6400C68530 /* left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left.png; sourceTree = "<group>"; };
+		DDBA35731331336800388CE1 /* BuyerTip.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BuyerTip.txt; sourceTree = "<group>"; };
+		DDD1E6E1132D23BC00D12005 /* LoadHtmlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadHtmlViewController.h; sourceTree = "<group>"; };
+		DDD1E6E2132D23BC00D12005 /* LoadHtmlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadHtmlViewController.m; sourceTree = "<group>"; };
+		DDD1E6E3132D23BC00D12005 /* LoadHtmlViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadHtmlViewController.xib; sourceTree = "<group>"; };
+		DDD1E6EE132D25AE00D12005 /* AboutMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AboutMe.txt; sourceTree = "<group>"; };
+		DDD1E73A132D366900D12005 /* HomeWorthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeWorthViewController.h; sourceTree = "<group>"; };
+		DDD1E73B132D366900D12005 /* HomeWorthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeWorthViewController.m; sourceTree = "<group>"; };
+		DDD1E73C132D366900D12005 /* HomeWorthViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeWorthViewController.xib; sourceTree = "<group>"; };
+		DDD1E779132D3B2F00D12005 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		DDD1E782132D3B7900D12005 /* ModalHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalHUD.h; sourceTree = "<group>"; };
+		DDD1E783132D3B7900D12005 /* ModalHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalHUD.m; sourceTree = "<group>"; };
+		DDD1E7B6132D3EF900D12005 /* ContactMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactMeViewController.h; sourceTree = "<group>"; };
+		DDD1E7B7132D3EF900D12005 /* ContactMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactMeViewController.m; sourceTree = "<group>"; };
+		DDD1E7B8132D3EF900D12005 /* ContactMeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactMeViewController.xib; sourceTree = "<group>"; };
+		DDD1E854132D5B8A00D12005 /* PropertyImaeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertyImaeViewController.h; sourceTree = "<group>"; };
+		DDD1E855132D5B8A00D12005 /* PropertyImaeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertyImaeViewController.m; sourceTree = "<group>"; };
+		DDD1E856132D5B8A00D12005 /* PropertyImaeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PropertyImaeViewController.xib; sourceTree = "<group>"; };
+		DDDDC3F3132BCFA0001D69D7 /* Global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
+		DDDDC43E132BD807001D69D7 /* UserLocationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserLocationController.h; sourceTree = "<group>"; };
+		DDDDC43F132BD807001D69D7 /* UserLocationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserLocationController.m; sourceTree = "<group>"; };
+		DDDDC483132BEC46001D69D7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				DD946E7A13296425008A91A1 /* MapKit.framework in Frameworks */,
+				DDDDC484132BEC46001D69D7 /* CoreLocation.framework in Frameworks */,
+				DDD1E77A132D3B2F00D12005 /* MessageUI.framework in Frameworks */,
+				DD83EAD7132EAA5B00D0AA56 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* ZillowAppDelegate.h */,
+				1D3623250D0F684500981E51 /* ZillowAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Zillow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				DD214E66133A7CA6008722AC /* GetDirectionViewController */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				DDDDC441132BD80A001D69D7 /* UserLocationController */,
+				DD946CEF13292AC2008A91A1 /* ZillowViewController */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				DD83EAC7132EA9C600D0AA56 /* DetectConnection */,
+				DD946D6313293A6C008A91A1 /* XmlParser */,
+				DDD1E781132D3B7900D12005 /* HUD */,
+				DD946D1713292FDB008A91A1 /* Modal */,
+				DD946D4613293570008A91A1 /* SearchViewController */,
+				DDDDC345132B724C001D69D7 /* MApAssociate */,
+				DD946E9B13296693008A91A1 /* DetailViewController */,
+				DDD1E859132D5B8D00D12005 /* PropertyImageViewController */,
+				DD946E9E132966F8008A91A1 /* Images */,
+				DDDDC3F6132BCFA3001D69D7 /* Global */,
+				DDD1E6E6132D23C000D12005 /* LoadHtmlViewController */,
+				DDD1E73F132D367200D12005 /* HomeWorthViewController */,
+				DDD1E7BB132D3EFF00D12005 /* ContactMeViewController */,
+				DD8773FD1330BFE3002D68A9 /* MorttageCalculator */,
+				DD8774A21330DD6F002D68A9 /* WebViewContrller */,
+				DD8775311330F130002D68A9 /* BuyHomeViewController */,
+				DD856BCB13313CB30018B1A5 /* WhatICanAfford */,
+				DD856C2A133152220018B1A5 /* SellHomeViewController */,
+				DD0DE8C11332A6090001EF61 /* IAmReadyToSellViewController */,
+				DD9FB9441333696A00D738F0 /* SplashScreen */,
+				DD9FBA0313337B9E00D738F0 /* AppointViewController */,
+				DD943713133605AC0064F3B2 /* IAmReadyToBuyViewController */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Zillow_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Zillow-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD946E7913296425008A91A1 /* MapKit.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				DDDDC483132BEC46001D69D7 /* CoreLocation.framework */,
+				DD83EAD6132EAA5B00D0AA56 /* SystemConfiguration.framework */,
+				DDD1E779132D3B2F00D12005 /* MessageUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD0DE8C11332A6090001EF61 /* IAmReadyToSellViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DD0DE8BC1332A6030001EF61 /* IAmReadyToSellViewController.h */,
+				DD0DE8BD1332A6030001EF61 /* IAmReadyToSellViewController.m */,
+				DD0DE8BE1332A6030001EF61 /* IAmReadyToSellViewController.xib */,
+			);
+			name = IAmReadyToSellViewController;
+			sourceTree = "<group>";
+		};
+		DD214E66133A7CA6008722AC /* GetDirectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DD214E62133A7C95008722AC /* GetDirectionViewController.m */,
+				DD214E61133A7C95008722AC /* GetDirectionViewController.h */,
+				DD214E63133A7C95008722AC /* GetDirectionViewController.xib */,
+			);
+			name = GetDirectionViewController;
+			sourceTree = "<group>";
+		};
+		DD83EAC7132EA9C600D0AA56 /* DetectConnection */ = {
+			isa = PBXGroup;
+			children = (
+				DD83EAC8132EA9C600D0AA56 /* DetectNetworkConnection.h */,
+				DD83EAC9132EA9C600D0AA56 /* DetectNetworkConnection.m */,
+			);
+			name = DetectConnection;
+			sourceTree = "<group>";
+		};
+		DD856BCB13313CB30018B1A5 /* WhatICanAfford */ = {
+			isa = PBXGroup;
+			children = (
+				DD856BC613313CAF0018B1A5 /* WhatICanAffrdViewController.h */,
+				DD856BC713313CAF0018B1A5 /* WhatICanAffrdViewController.m */,
+				DD856BC813313CAF0018B1A5 /* WhatICanAffrdViewController.xib */,
+			);
+			name = WhatICanAfford;
+			sourceTree = "<group>";
+		};
+		DD856C2A133152220018B1A5 /* SellHomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DD856C251331521E0018B1A5 /* SellHomeViewController.h */,
+				DD856C261331521E0018B1A5 /* SellHomeViewController.m */,
+				DD856C271331521E0018B1A5 /* SellHomeViewController.xib */,
+			);
+			name = SellHomeViewController;
+			sourceTree = "<group>";
+		};
+		DD8773FD1330BFE3002D68A9 /* MorttageCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				DD8773F81330BFDE002D68A9 /* MortaggeCalculatorViewController.h */,
+				DD8773F91330BFDE002D68A9 /* MortaggeCalculatorViewController.m */,
+				DD8773FA1330BFDE002D68A9 /* MortaggeCalculatorViewController.xib */,
+			);
+			name = MorttageCalculator;
+			sourceTree = "<group>";
+		};
+		DD8774A21330DD6F002D68A9 /* WebViewContrller */ = {
+			isa = PBXGroup;
+			children = (
+				DD87749D1330DD6C002D68A9 /* WebViewContrller.h */,
+				DD87749E1330DD6C002D68A9 /* WebViewContrller.m */,
+				DD87749F1330DD6C002D68A9 /* WebViewContrller.xib */,
+			);
+			name = WebViewContrller;
+			sourceTree = "<group>";
+		};
+		DD8775311330F130002D68A9 /* BuyHomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DD87752C1330F12C002D68A9 /* BuyHomeViewController.h */,
+				DD87752D1330F12C002D68A9 /* BuyHomeViewController.m */,
+				DD87752E1330F12C002D68A9 /* BuyHomeViewController.xib */,
+			);
+			name = BuyHomeViewController;
+			sourceTree = "<group>";
+		};
+		DD943713133605AC0064F3B2 /* IAmReadyToBuyViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DD94370E133605A70064F3B2 /* IAmReadyToBuyViewController.h */,
+				DD94370F133605A70064F3B2 /* IAmReadyToBuyViewController.m */,
+				DD943710133605A70064F3B2 /* IAmReadyToBuyViewController.xib */,
+			);
+			name = IAmReadyToBuyViewController;
+			sourceTree = "<group>";
+		};
+		DD946CEF13292AC2008A91A1 /* ZillowViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DD946CDB13292052008A91A1 /* ZillowViewController.h */,
+				DD946CDC13292052008A91A1 /* ZillowViewController.m */,
+				DD946CDD13292052008A91A1 /* ZillowViewController.xib */,
+			);
+			name = ZillowViewController;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DD946D1713292FDB008A91A1 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				DD946D1413292FD8008A91A1 /* Modal.h */,
+				DD946D1513292FD8008A91A1 /* Modal.m */,
+			);
+			name = Modal;
+			sourceTree = "<group>";
+		};
+		DD946D4613293570008A91A1 /* SearchViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DD946D411329356D008A91A1 /* SearchViewController.h */,
+				DD946D421329356D008A91A1 /* SearchViewController.m */,
+				DD946D431329356D008A91A1 /* SearchViewController.xib */,
+			);
+			name = SearchViewController;
+			sourceTree = "<group>";
+		};
+		DD946D6313293A6C008A91A1 /* XmlParser */ = {
+			isa = PBXGroup;
+			children = (
+				DD946D6413293A6C008A91A1 /* XmlParser.h */,
+				DD946D6513293A6C008A91A1 /* XmlParser.m */,
+			);
+			name = XmlParser;
+			sourceTree = "<group>";
+		};
+		DD946E9B13296693008A91A1 /* DetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DD946E9613296668008A91A1 /* PlaceDetailViewController.h */,
+				DD946E9713296668008A91A1 /* PlaceDetailViewController.m */,
+				DD946E9813296668008A91A1 /* PlaceDetailViewController.xib */,
+			);
+			name = DetailViewController;
+			sourceTree = "<group>";
+		};
+		DD946E9E132966F8008A91A1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DD9FB94613336B0300D738F0 /* ImageJeff.png */,
+				DDB4E17E132F7C6400C68530 /* right.png */,
+				DDB4E17F132F7C6400C68530 /* left.png */,
+				DD3813BE133BCB1D00E3ACD2 /* icon.png */,
+				DDA37E3B1331DD6C006DFEC6 /* JeffBlack.png */,
+				DD946E9C132966ED008A91A1 /* ForColor.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		DD9FB9441333696A00D738F0 /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				DD9FB93F1333696500D738F0 /* SplashScreenViewControler.h */,
+				DD9FB9401333696500D738F0 /* SplashScreenViewControler.m */,
+				DD9FB9411333696500D738F0 /* SplashScreenViewControler.xib */,
+			);
+			name = SplashScreen;
+			sourceTree = "<group>";
+		};
+		DD9FBA0313337B9E00D738F0 /* AppointViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DD9FB9FE13337B9A00D738F0 /* AppointmentViewController.h */,
+				DD9FB9FF13337B9A00D738F0 /* AppointmentViewController.m */,
+				DD9FBA0013337B9A00D738F0 /* AppointmentViewController.xib */,
+			);
+			name = AppointViewController;
+			sourceTree = "<group>";
+		};
+		DDD1E6E6132D23C000D12005 /* LoadHtmlViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DDD1E6E1132D23BC00D12005 /* LoadHtmlViewController.h */,
+				DDD1E6E2132D23BC00D12005 /* LoadHtmlViewController.m */,
+				DDD1E6E3132D23BC00D12005 /* LoadHtmlViewController.xib */,
+				DDD1E6F0132D25B000D12005 /* TextPages */,
+			);
+			name = LoadHtmlViewController;
+			sourceTree = "<group>";
+		};
+		DDD1E6F0132D25B000D12005 /* TextPages */ = {
+			isa = PBXGroup;
+			children = (
+				DDD1E6EE132D25AE00D12005 /* AboutMe.txt */,
+				DD856C3A133157750018B1A5 /* Marketting.txt */,
+				DDA383AF133241F7006DFEC6 /* TipsTo.txt */,
+				DD8775581330F86B002D68A9 /* FristTimBuyer.txt */,
+				DDBA35731331336800388CE1 /* BuyerTip.txt */,
+				DD0DE88F133296940001EF61 /* setprice.txt */,
+			);
+			name = TextPages;
+			sourceTree = "<group>";
+		};
+		DDD1E73F132D367200D12005 /* HomeWorthViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DDD1E73A132D366900D12005 /* HomeWorthViewController.h */,
+				DDD1E73B132D366900D12005 /* HomeWorthViewController.m */,
+				DDD1E73C132D366900D12005 /* HomeWorthViewController.xib */,
+			);
+			name = HomeWorthViewController;
+			sourceTree = "<group>";
+		};
+		DDD1E781132D3B7900D12005 /* HUD */ = {
+			isa = PBXGroup;
+			children = (
+				DDD1E782132D3B7900D12005 /* ModalHUD.h */,
+				DDD1E783132D3B7900D12005 /* ModalHUD.m */,
+			);
+			name = HUD;
+			sourceTree = "<group>";
+		};
+		DDD1E7BB132D3EFF00D12005 /* ContactMeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DDD1E7B6132D3EF900D12005 /* ContactMeViewController.h */,
+				DDD1E7B7132D3EF900D12005 /* ContactMeViewController.m */,
+				DDD1E7B8132D3EF900D12005 /* ContactMeViewController.xib */,
+			);
+			name = ContactMeViewController;
+			sourceTree = "<group>";
+		};
+		DDD1E859132D5B8D00D12005 /* PropertyImageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DDD1E854132D5B8A00D12005 /* PropertyImaeViewController.h */,
+				DDD1E855132D5B8A00D12005 /* PropertyImaeViewController.m */,
+				DDD1E856132D5B8A00D12005 /* PropertyImaeViewController.xib */,
+			);
+			name = PropertyImageViewController;
+			sourceTree = "<group>";
+		};
+		DDDDC345132B724C001D69D7 /* MApAssociate */ = {
+			isa = PBXGroup;
+			children = (
+				DD946E7D13296473008A91A1 /* MyAnnotation.h */,
+				DD946E7E13296473008A91A1 /* MyAnnotation.m */,
+				DD946EAD1329689E008A91A1 /* iCodeBlogAnnotationView.m */,
+				DD946EAC1329689E008A91A1 /* iCodeBlogAnnotationView.h */,
+			);
+			name = MApAssociate;
+			sourceTree = "<group>";
+		};
+		DDDDC3F6132BCFA3001D69D7 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				DDDDC3F3132BCFA0001D69D7 /* Global.h */,
+			);
+			name = Global;
+			sourceTree = "<group>";
+		};
+		DDDDC441132BD80A001D69D7 /* UserLocationController */ = {
+			isa = PBXGroup;
+			children = (
+				DDDDC43E132BD807001D69D7 /* UserLocationController.h */,
+				DDDDC43F132BD807001D69D7 /* UserLocationController.m */,
+			);
+			name = UserLocationController;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Zillow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Zillow" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zillow;
+			productName = Zillow;
+			productReference = 1D6058910D05DD3D006BFB54 /* Zillow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Zillow" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Zillow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				DD946CDF13292052008A91A1 /* ZillowViewController.xib in Resources */,
+				DD946D451329356D008A91A1 /* SearchViewController.xib in Resources */,
+				DD946E9A13296668008A91A1 /* PlaceDetailViewController.xib in Resources */,
+				DD946E9D132966ED008A91A1 /* ForColor.png in Resources */,
+				DDD1E6E5132D23BC00D12005 /* LoadHtmlViewController.xib in Resources */,
+				DDD1E6EF132D25AE00D12005 /* AboutMe.txt in Resources */,
+				DDD1E73E132D366900D12005 /* HomeWorthViewController.xib in Resources */,
+				DDD1E7BA132D3EF900D12005 /* ContactMeViewController.xib in Resources */,
+				DDD1E858132D5B8A00D12005 /* PropertyImaeViewController.xib in Resources */,
+				DDB4E180132F7C6400C68530 /* right.png in Resources */,
+				DDB4E181132F7C6400C68530 /* left.png in Resources */,
+				DD8773FC1330BFDE002D68A9 /* MortaggeCalculatorViewController.xib in Resources */,
+				DD8774A11330DD6C002D68A9 /* WebViewContrller.xib in Resources */,
+				DD8775301330F12C002D68A9 /* BuyHomeViewController.xib in Resources */,
+				DD8775591330F86B002D68A9 /* FristTimBuyer.txt in Resources */,
+				DDBA35741331336800388CE1 /* BuyerTip.txt in Resources */,
+				DD856BCA13313CAF0018B1A5 /* WhatICanAffrdViewController.xib in Resources */,
+				DD856C291331521E0018B1A5 /* SellHomeViewController.xib in Resources */,
+				DD856C3B133157750018B1A5 /* Marketting.txt in Resources */,
+				DDA37E3C1331DD6C006DFEC6 /* JeffBlack.png in Resources */,
+				DDA383B0133241F7006DFEC6 /* TipsTo.txt in Resources */,
+				DD0DE890133296940001EF61 /* setprice.txt in Resources */,
+				DD0DE8C01332A6030001EF61 /* IAmReadyToSellViewController.xib in Resources */,
+				DD9FB9431333696500D738F0 /* SplashScreenViewControler.xib in Resources */,
+				DD9FB94713336B0300D738F0 /* ImageJeff.png in Resources */,
+				DD9FBA0213337B9A00D738F0 /* AppointmentViewController.xib in Resources */,
+				DD943712133605A70064F3B2 /* IAmReadyToBuyViewController.xib in Resources */,
+				DD214E65133A7C95008722AC /* GetDirectionViewController.xib in Resources */,
+				DD3813BF133BCB1D00E3ACD2 /* icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* ZillowAppDelegate.m in Sources */,
+				DD946CDE13292052008A91A1 /* ZillowViewController.m in Sources */,
+				DD946D1613292FD8008A91A1 /* Modal.m in Sources */,
+				DD946D441329356D008A91A1 /* SearchViewController.m in Sources */,
+				DD946D6613293A6C008A91A1 /* XmlParser.m in Sources */,
+				DD946E8013296473008A91A1 /* MyAnnotation.m in Sources */,
+				DD946E9913296668008A91A1 /* PlaceDetailViewController.m in Sources */,
+				DD946EAE1329689E008A91A1 /* iCodeBlogAnnotationView.m in Sources */,
+				DDDDC440132BD807001D69D7 /* UserLocationController.m in Sources */,
+				DDD1E6E4132D23BC00D12005 /* LoadHtmlViewController.m in Sources */,
+				DDD1E73D132D366900D12005 /* HomeWorthViewController.m in Sources */,
+				DDD1E784132D3B7900D12005 /* ModalHUD.m in Sources */,
+				DDD1E7B9132D3EF900D12005 /* ContactMeViewController.m in Sources */,
+				DDD1E857132D5B8A00D12005 /* PropertyImaeViewController.m in Sources */,
+				DD83EACA132EA9C600D0AA56 /* DetectNetworkConnection.m in Sources */,
+				DD8773FB1330BFDE002D68A9 /* MortaggeCalculatorViewController.m in Sources */,
+				DD8774A01330DD6C002D68A9 /* WebViewContrller.m in Sources */,
+				DD87752F1330F12C002D68A9 /* BuyHomeViewController.m in Sources */,
+				DD856BC913313CAF0018B1A5 /* WhatICanAffrdViewController.m in Sources */,
+				DD856C281331521E0018B1A5 /* SellHomeViewController.m in Sources */,
+				DD0DE8BF1332A6030001EF61 /* IAmReadyToSellViewController.m in Sources */,
+				DD9FB9421333696500D738F0 /* SplashScreenViewControler.m in Sources */,
+				DD9FBA0113337B9A00D738F0 /* AppointmentViewController.m in Sources */,
+				DD943711133605A70064F3B2 /* IAmReadyToBuyViewController.m in Sources */,
+				DD214E64133A7C95008722AC /* GetDirectionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Zillow_Prefix.pch;
+				INFOPLIST_FILE = "Zillow-Info.plist";
+				PRODUCT_NAME = Zillow;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Zillow_Prefix.pch;
+				INFOPLIST_FILE = "Zillow-Info.plist";
+				PRODUCT_NAME = Zillow;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Zillow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Zillow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
